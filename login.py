@@ -38,10 +38,10 @@ class login:
         time.sleep(2)
 
     def usuario(self):
-        self.driver.find_element(By.ID, self.site_map["campos"]["username"]["id"]).send_keys('rafael.souza')
+        self.driver.find_element(By.ID, self.site_map["campos"]["username"]["id"]).send_keys()
         
     def senha(self):
-        self.driver.find_element(By.ID, self.site_map["campos"]["password"]["id"]).send_keys('sccp1910')
+        self.driver.find_element(By.ID, self.site_map["campos"]["password"]["id"]).send_keys()
         
     def olhinho(self):
         self.driver.find_element(By.XPATH, self.site_map["button"]["eye"]["xpath"]).click()   
